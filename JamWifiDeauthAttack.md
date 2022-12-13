@@ -19,3 +19,8 @@ xx:xx:xx:xx:xx:xx is MAC address of the router
 https://github.com/DanMcInerney/wifijammer
 
 Article https://en.kali.tools/?p=394
+
+## Method 3 - Nethunter
+
+https://www.youtube.com/watch?v=UiERtJs-xfE
+
