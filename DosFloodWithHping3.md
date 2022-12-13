@@ -24,4 +24,6 @@ Flood From a Fake IP Address With hping3
 `sudo hping3 -a 190.0.174.10 190.0.175.100 -S -q -p 80`
   
   
+–interface: wlan0 or whatever network card name you have.
+  
 More info in article https://linuxhint.com/hping3/
